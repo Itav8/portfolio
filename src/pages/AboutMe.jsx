@@ -1,3 +1,5 @@
+import "../css/App.css";
+
 const AboutMe = () => {
   return (
     <div>
