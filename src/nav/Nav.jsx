@@ -6,6 +6,9 @@ const Nav = () => {
       <div>
         <NavLink to='/'>About Me</NavLink>
         <NavLink to='/resume'>Resume</NavLink>
+        <NavLink to='/trackly'>Track.ly</NavLink>
+        <NavLink to='/carcar'>CarCar</NavLink>
+        <NavLink to='/healthgpt'>HealthGPT</NavLink>
       </div>
     </nav>
   )
