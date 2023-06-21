@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import { routes } from "./routes/routes";
-import Nav from "./nav/Nav";
+import Nav from "./Nav";
 
 const router = createBrowserRouter(routes);
 
