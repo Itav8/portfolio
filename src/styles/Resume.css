@@ -1,0 +1,36 @@
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  gap: 20px;
+}
+
+.skills ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.experience {
+  display: flex;
+  gap: 20px;
+}
+
+.past-work {
+  display: flex;
+  gap: 20px;
+}
+
+.education ul {
+  list-style-type: none;
+}
+
+.personal ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
