@@ -1,0 +1,15 @@
+.project {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tech-header {
+  text-align: center;
+}
+
+.tech {
+  display: flex;
+  justify-content: space-evenly;
+}
