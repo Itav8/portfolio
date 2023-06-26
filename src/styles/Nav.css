@@ -7,3 +7,23 @@
   display: flex;
   gap: 30px;
 }
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.dropbutton {
+  border: 0;
+  font-size: 1.2rem;
+  color: white;
+}
