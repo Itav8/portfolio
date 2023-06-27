@@ -4,6 +4,15 @@ const Resume = () => {
   return (
     <div>
       <h1>Resume</h1>
+      <div>
+        <a
+          target="_blank"
+          href="https://italiz-personal.s3.us-east-2.amazonaws.com/ItalizVazquezResume.pdf"
+          download
+        >
+          Download Resume
+        </a>
+      </div>
       <div className="resume">
         <h2>TECHNICAL SKILLS</h2>
         <div className="skills">
@@ -44,29 +53,27 @@ const Resume = () => {
         </div>
         <h2>APPLICATION DEVELOPMENT EXPERIENCE</h2>
 
-        <div className="experience">
-            <h4>HealthGPT</h4>
-            <ul>
-              <li>
-                Scoped, planned, designed, and implemented core application
-              </li>
-              <li>
-                Lead development of REST API service utilizing FastAPI,
-                PostgreSQL, and testing with PyTest
-              </li>
-              <li>
-                Initiated and implemented authentication utilizing password
-                hashing and JWT
-              </li>
-              <li>
-                Built Fitness pages and components utilizing React, CSS, and
-                Nutritionix API
-              </li>
-              <li>
-                Constructed Dashboard and created data visualizations using
-                React, and Chart.js
-              </li>
-            </ul>
+        <div className="experiences">
+          <h4>HealthGPT</h4>
+          <ul>
+            <li>Scoped, planned, designed, and implemented core application</li>
+            <li>
+              Lead development of REST API service utilizing FastAPI,
+              PostgreSQL, and testing with PyTest
+            </li>
+            <li>
+              Initiated and implemented authentication utilizing password
+              hashing and JWT
+            </li>
+            <li>
+              Built Fitness pages and components utilizing React, CSS, and
+              Nutritionix API
+            </li>
+            <li>
+              Constructed Dashboard and created data visualizations using React,
+              and Chart.js
+            </li>
+          </ul>
 
           <h4>CarCar</h4>
           <ul>
@@ -134,7 +141,7 @@ const Resume = () => {
               high-risk team in the prevention program
             </li>
             <li>
-              Arranged and provided reports of client’s progress for conference
+              Arranged and provided reports of client's progress for conference
               meetings between families and ACS
             </li>
           </ul>

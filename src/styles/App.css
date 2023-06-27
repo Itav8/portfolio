@@ -1,3 +1,8 @@
 * {
   background-color: #9ac5f4;
 }
+
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
