@@ -5,14 +5,6 @@ const Resume = () => {
     <div>
       <h1>Resume</h1>
       <div className="resume">
-        <h2>ITALIZ VAZQUEZ</h2>
-        <div className="contact">
-          <h4>New York, NY</h4>
-          <h4>linkedin.com/italiz-vazquez</h4>
-          <h4>gitlab.com/Itav8</h4>
-          <h4>github.com/Itav8</h4>
-        </div>
-
         <h2>TECHNICAL SKILLS</h2>
         <div className="skills">
           <h4>Programming:</h4>
@@ -53,26 +45,29 @@ const Resume = () => {
         <h2>APPLICATION DEVELOPMENT EXPERIENCE</h2>
 
         <div className="experience">
-          <h4>HealthGPT</h4>
-          <ul>
-            <li>Scoped, planned, designed, and implemented core application</li>
-            <li>
-              Lead development of REST API service utilizing FastAPI,
-              PostgreSQL, and testing with PyTest
-            </li>
-            <li>
-              Initiated and implemented authentication utilizing password
-              hashing and JWT
-            </li>
-            <li>
-              Built Fitness pages and components utilizing React, CSS, and
-              Nutritionix API
-            </li>
-            <li>
-              Constructed Dashboard and created data visualizations using React,
-              and Chart.js
-            </li>
-          </ul>
+            <h4>HealthGPT</h4>
+            <ul>
+              <li>
+                Scoped, planned, designed, and implemented core application
+              </li>
+              <li>
+                Lead development of REST API service utilizing FastAPI,
+                PostgreSQL, and testing with PyTest
+              </li>
+              <li>
+                Initiated and implemented authentication utilizing password
+                hashing and JWT
+              </li>
+              <li>
+                Built Fitness pages and components utilizing React, CSS, and
+                Nutritionix API
+              </li>
+              <li>
+                Constructed Dashboard and created data visualizations using
+                React, and Chart.js
+              </li>
+            </ul>
+
           <h4>CarCar</h4>
           <ul>
             <li>
