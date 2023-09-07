@@ -1,1 +1,22 @@
+.resume-container {
+  text-align: center;
+}
 
+.resume-title {
+  font-size: 4rem;;
+}
+
+.resume-button {
+  text-decoration: none;
+  color: #DBE2EF;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #3F72AF;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.resume-button:hover {
+  background-color: #F9F7F7;
+  color: black
+}
