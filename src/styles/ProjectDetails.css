@@ -1,0 +1,22 @@
+.project-details__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}
+
+.project-details__button {
+  text-decoration: none;
+  color: #DBE2EF;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #3F72AF;
+}
+
+.project-details__button:hover {
+  background-color: #F9F7F7;
+  color: black
+}

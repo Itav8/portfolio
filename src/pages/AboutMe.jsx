@@ -1,3 +1,4 @@
+import ProjectDetails from "../components/ProjectDetails";
 import Skills from "../components/Skills";
 import "../styles/AboutMe.css";
 
@@ -30,6 +31,26 @@ const AboutMe = () => {
     tools: ["Docker", "PaaS(Vercel, Render, Railway)", "Git"],
   };
 
+  const projectInfo = {
+    trackLy: [
+      "A tasks/projects tracking application providing users with a minimal elegant experience and management control.",
+    ],
+    carCar: [
+      "Innovating automobile inventory management, services, and sales processes efficiently.",
+    ],
+    healthGPT: ["Nutrition tracker utilizing AI to log exercises and meals."],
+    perfectlyPlanned: [
+      "Wedding Management application, designed for efficient organization to create wedding-related events.",
+    ],
+  };
+
+  const projectGit = {
+    trackLy: "https://github.com/Itav8/track.ly",
+    carCar: "https://github.com/Itav8/carcar",
+    healthGPT: "https://gitlab.com/caloriecounters/healthgpt",
+    perfectlyPlanned: "https://github.com/Itav8/perfectly-planned",
+  };
+
   return (
     <div className="about">
       <h1>About Me</h1>
@@ -45,8 +66,7 @@ const AboutMe = () => {
               complex challenges and crafting elegant code solutions,
               particularly on the frontend. With a strong foundation in empathy
               and understanding user needs, I bring a unique perspective to
-              software engineering. Proficient in JavaScript, Python, React,
-              PostgreSQL, and FastAPI, I am equipped to overcome programming
+              software engineering. I am equipped to overcome programming
               hurdles and deliver high-quality applications.
             </p>
           </div>
@@ -67,7 +87,31 @@ const AboutMe = () => {
       </section>
       <section className="about-section">
         <h1>Projects</h1>
-        <div className="about-section__content"></div>
+        <div className="about-section__content">
+          <div>
+            <h2>Track.ly</h2>
+            <ProjectDetails
+              description={projectInfo.trackLy}
+              git={projectGit.trackLy}
+            />
+            <h2>CarCar</h2>
+            <ProjectDetails
+              description={projectInfo.carCar}
+              git={projectGit.carCar}
+            />
+            <h2>HealthGPT</h2>
+            <ProjectDetails
+              description={projectInfo.healthGPT}
+              git={projectGit.healthGPT}
+            />
+            <h2>Perfectly Planned</h2>
+            <ProjectDetails
+              description={projectInfo.perfectlyPlanned}
+              git={projectGit.perfectlyPlanned}
+            />
+          </div>
+          <div>IMAGE</div>
+        </div>
       </section>
     </div>
   );
