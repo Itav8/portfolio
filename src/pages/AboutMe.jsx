@@ -1,5 +1,6 @@
 import ProjectDetails from "../components/ProjectDetails";
 import Skills from "../components/Skills";
+
 import "../styles/AboutMe.css";
 
 const AboutMe = () => {
@@ -79,30 +80,34 @@ const AboutMe = () => {
       </section>
       <section className="about-section">
         <h1 className="about-header">Projects</h1>
-        <div className="about-section__content">
+        <div className="about-section__content about-section__content--projects">
           <div>
             <ProjectDetails
               title="Track.ly"
               description={projectInfo.trackLy}
               git={projectGit.trackLy}
+              photo={"laptopImg"}
             />
             <ProjectDetails
               title="CarCar"
               description={projectInfo.carCar}
               git={projectGit.carCar}
+              photo={"laptopImg"}
             />
             <ProjectDetails
               title="HealthGPT"
               description={projectInfo.healthGPT}
               git={projectGit.healthGPT}
+              photo={"laptopImg"}
             />
             <ProjectDetails
               title="Perfectly Planned"
               description={projectInfo.perfectlyPlanned}
               git={projectGit.perfectlyPlanned}
+              photo={"laptopImg"}
             />
           </div>
-          <div>IMAGE</div>
+          <div></div>
         </div>
       </section>
     </div>

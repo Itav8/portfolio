@@ -18,3 +18,7 @@
 .about-section__bio {
   font-size: 1.2rem;
 }
+
+.about-section__content--projects {
+  display: block
+}
