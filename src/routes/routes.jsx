@@ -1,9 +1,10 @@
 import Layout from "../components/Layout";
 import AboutMe from "../pages/AboutMe";
+import Resume from "../pages/Resume"
+import Trackly from "../pages/Trackly";
 import CarCar from "../pages/CarCar";
 import HealthGPT from "../pages/HealthGPT";
-import Resume from "../pages/Resume";
-import Trackly from "../pages/Trackly";
+import PerfectlyPlanned from "../pages/PerfectlyPlanned";
 
 // For React Router Routes
 export const routes = [
@@ -26,6 +27,10 @@ export const routes = [
       {
         path: "/healthgpt",
         element: <HealthGPT />,
+      },
+      {
+        path: "/perfectlyplanned",
+        element: <PerfectlyPlanned />,
       },
     ],
   },

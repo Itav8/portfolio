@@ -1,7 +1,10 @@
-* {
-  background-color: #9ac5f4;
+body {
+  margin: 0;
+  background-color: #112D4E;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #DBE2EF;
 }
-
 
 .main {
   flex: 1;

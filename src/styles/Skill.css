@@ -1,0 +1,12 @@
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-container__skill {
+  background-color: #3F72AF;
+  padding: 10px;
+  border-radius: 20px;
+}

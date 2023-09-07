@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
+import profileImg from "../images/IMG_3373.png";
 
 import "../styles/Nav.css";
-import { useState } from "react";
 
 const Nav = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -12,16 +13,32 @@ const Nav = () => {
 
   return (
     <nav className="navbar">
-      <NavLink to="/">About Me</NavLink>
+      <NavLink className="navbar-home" to="/">
+        <img className="navbar-profile" alt="profile" src={profileImg} />
+        Italiz Vazquez
+      </NavLink>
       <div className="navbar-right">
         <NavLink to="/resume">Resume</NavLink>
-        <div className="dropdown" onClick={toggleDropdown}>
-          <button className="dropbutton">Projects</button>
+        <div className="navbar-dropdown" onClick={toggleDropdown}>
+          <button className="navbar-dropbutton">Projects</button>
           {showDropdown && (
             <div className="dropdown-content">
-              <NavLink to="/trackly">Track.ly</NavLink>
-              <NavLink to="/carcar">CarCar</NavLink>
-              <NavLink to="/healthgpt">HealthGPT</NavLink>
+              <NavLink className="dropdown-content__project" to="/trackly">
+                Track.ly
+              </NavLink>
+              <NavLink className="dropdown-content__project" to="/carcar">
+                CarCar
+              </NavLink>
+              <NavLink className="dropdown-content__project" to="/healthgpt">
+                HealthGPT
+              </NavLink>
+              <NavLink
+                className="dropdown-content__project"
+                to="/perfectlyplanned"
+              >
+                {" "}
+                Perfectly Planned
+              </NavLink>
             </div>
           )}
         </div>

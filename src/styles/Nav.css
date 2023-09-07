@@ -1,6 +1,19 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  padding: 20px;
+  background-color: #3F72AF;
+}
+
+.navbar-home {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-profile {
+  width: 30px;
+  border-radius: 50px;
+  margin-right: 5px;
 }
 
 .navbar-right {
@@ -17,18 +30,25 @@ nav ul {
 nav a {
   text-decoration: none;
   font-size: 1.2rem;
-  color: white;
   display: block;
   text-align: center;
+  color: #DBE2EF;
 }
 
-.dropbutton {
+.navbar-dropbutton {
   border: 0;
   font-size: 1.2rem;
-  color: white;
   cursor: pointer;
+  background-color: #3F72AF;
+  color: #DBE2EF;
 }
 
 .dropdown-content {
   position: absolute;
+  margin-top: 10px;
+  background-color: #3F72AF;
+}
+
+.dropdown-content__project {
+  margin-top: 5px;
 }
