@@ -1,7 +1,10 @@
 .project-details__container {
   display: flex;
   flex-direction: column;
-  gap: 20px
+}
+
+.project-details__info {
+  font-size: 1.2rem;
 }
 
 .project-details__button {
@@ -10,8 +13,7 @@
   font-size: 1.2rem;
   cursor: pointer;
   padding: 10px;
-  height: 100%;
-  width: 100%;
+  width: 30%;
   border-radius: 5px;
   background-color: #3F72AF;
 }

@@ -28,20 +28,17 @@ const AboutMe = () => {
       "SQLAlchemy",
     ],
     frontEndTools: ["React", "Redux", "Vite", "Django templating"],
-    tools: ["Docker", "PaaS(Vercel, Render, Railway)", "Git"],
+    tools: ["Docker", "PaaS (Vercel, Render, Railway)", "Git"],
   };
 
   const projectInfo = {
-    trackLy: [
+    trackLy:
       "A tasks/projects tracking application providing users with a minimal elegant experience and management control.",
-    ],
-    carCar: [
+    carCar:
       "Innovating automobile inventory management, services, and sales processes efficiently.",
-    ],
-    healthGPT: ["Nutrition tracker utilizing AI to log exercises and meals."],
-    perfectlyPlanned: [
+    healthGPT: "Nutrition tracker utilizing AI to log exercises and meals.",
+    perfectlyPlanned:
       "Wedding Management application, designed for efficient organization to create wedding-related events.",
-    ],
   };
 
   const projectGit = {
@@ -53,12 +50,12 @@ const AboutMe = () => {
 
   return (
     <div className="about">
-      <h1>About Me</h1>
+      <h1 className="about-header">About Me</h1>
       <section className="about-section">
         <div className="about-section__content">
           <div>
             <h2>Get to know me</h2>
-            <p>
+            <p className="about-section__bio">
               Passionate Licensed Master Social Worker (LMSW) with a
               comprehensive skill set spanning the full stack. My transition
               from social work to software engineering is fueled by a deep
@@ -72,40 +69,35 @@ const AboutMe = () => {
           </div>
           <div>
             <h2>My Skills</h2>
-            <h4>Programming</h4>
-            <Skills skills={mySkills.programmingLangs} />
-            <h4>System Design</h4>
-            <Skills skills={mySkills.systemDesigns} />
-            <h4>Back-End</h4>
-            <Skills skills={mySkills.backEndTools} />
-            <h4>Front-End</h4>
-            <Skills skills={mySkills.frontEndTools} />
-            <h4>Tools</h4>
-            <Skills skills={mySkills.tools} />
+            <Skills title="Programming" skills={mySkills.programmingLangs} />
+            <Skills title="System Design" skills={mySkills.systemDesigns} />
+            <Skills title="Back-End" skills={mySkills.backEndTools} />
+            <Skills title="Front-End" skills={mySkills.frontEndTools} />
+            <Skills title="Tools" skills={mySkills.tools} />
           </div>
         </div>
       </section>
       <section className="about-section">
-        <h1>Projects</h1>
+        <h1 className="about-header">Projects</h1>
         <div className="about-section__content">
           <div>
-            <h2>Track.ly</h2>
             <ProjectDetails
+              title="Track.ly"
               description={projectInfo.trackLy}
               git={projectGit.trackLy}
             />
-            <h2>CarCar</h2>
             <ProjectDetails
+              title="CarCar"
               description={projectInfo.carCar}
               git={projectGit.carCar}
             />
-            <h2>HealthGPT</h2>
             <ProjectDetails
+              title="HealthGPT"
               description={projectInfo.healthGPT}
               git={projectGit.healthGPT}
             />
-            <h2>Perfectly Planned</h2>
             <ProjectDetails
+              title="Perfectly Planned"
               description={projectInfo.perfectlyPlanned}
               git={projectGit.perfectlyPlanned}
             />
