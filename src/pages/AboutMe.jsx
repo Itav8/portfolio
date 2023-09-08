@@ -83,7 +83,7 @@ const AboutMe = () => {
             </p>
           </div>
           <div>
-            <h2>My Skills</h2>
+            <h2>My skills</h2>
             <Skills title="Programming" skills={mySkills.programmingLangs} />
             <Skills title="System Design" skills={mySkills.systemDesigns} />
             <Skills title="Back-End" skills={mySkills.backEndTools} />

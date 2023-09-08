@@ -6,7 +6,8 @@
 }
 
 .resume-title {
-  font-size: 4rem;;
+  font-size: 4rem;
+  ;
 }
 
 .resume-button {
@@ -21,4 +22,8 @@
 
 .resume-button:hover {
   background-color: #F9F7F7;
+}
+
+.resume-button__icon {
+  animation-duration: 2s;
 }
