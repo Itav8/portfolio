@@ -35,7 +35,6 @@ const Nav = () => {
                 className="dropdown-content__project"
                 to="/perfectlyplanned"
               >
-                {" "}
                 Perfectly Planned
               </NavLink>
             </div>
