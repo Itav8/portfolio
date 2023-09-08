@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import profileImg from "../images/IMG_3373.png";
-
 import "../styles/Nav.css";
 
 const Nav = () => {

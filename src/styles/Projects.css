@@ -1,15 +1,6 @@
-.project {
+.project-container {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.tech-header {
-  text-align: center;
-}
-
-.tech {
-  display: flex;
-  justify-content: space-evenly;
-}

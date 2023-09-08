@@ -1,5 +1,4 @@
 import laptopImg from "../images/IMG_91374.png";
-
 import "../styles/ProjectDetails.css";
 
 const ProjectDetails = (props) => {

@@ -4,7 +4,6 @@ import perfectlyPlannedImg from "../images/perfectly_planned.png"
 import healthGpt from "../images/healthGPT.png"
 import carcar from "../images/carcar.png"
 import trackLy from "../images/trackly.png"
-
 import "../styles/AboutMe.css";
 
 const AboutMe = () => {
