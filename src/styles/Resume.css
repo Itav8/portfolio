@@ -1,5 +1,8 @@
 .resume-container {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .resume-title {
@@ -12,11 +15,10 @@
   cursor: pointer;
   border-radius: 5px;
   background-color: #3F72AF;
-  font-size: 2rem;
-  padding: 10px;
+  width: 200px;
+  align-self: center;
 }
 
 .resume-button:hover {
   background-color: #F9F7F7;
-  color: black
 }
