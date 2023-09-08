@@ -1,5 +1,9 @@
 import ProjectDetails from "../components/ProjectDetails";
 import Skills from "../components/Skills";
+import perfectlyPlannedImg from "../images/perfectly_planned.png"
+import healthGpt from "../images/healthGPT.png"
+import carcar from "../images/carcar.png"
+import trackLy from "../images/trackly.png"
 
 import "../styles/AboutMe.css";
 
@@ -49,6 +53,13 @@ const AboutMe = () => {
     perfectlyPlanned: "https://github.com/Itav8/perfectly-planned",
   };
 
+  const projectImgs = {
+    perfectlyPlanned: perfectlyPlannedImg,
+    healthGPT: healthGpt,
+    carCar: carcar,
+    trackLy: trackLy
+  };
+
   return (
     <div className="about">
       <h1 className="about-header">About Me</h1>
@@ -83,28 +94,28 @@ const AboutMe = () => {
         <div className="about-section__content about-section__content--projects">
           <div>
             <ProjectDetails
-              title="Track.ly"
-              description={projectInfo.trackLy}
-              git={projectGit.trackLy}
-              photo={"laptopImg"}
-            />
-            <ProjectDetails
-              title="CarCar"
-              description={projectInfo.carCar}
-              git={projectGit.carCar}
-              photo={"laptopImg"}
+              title="Perfectly Planned"
+              description={projectInfo.perfectlyPlanned}
+              git={projectGit.perfectlyPlanned}
+              photo={projectImgs.perfectlyPlanned}
             />
             <ProjectDetails
               title="HealthGPT"
               description={projectInfo.healthGPT}
               git={projectGit.healthGPT}
-              photo={"laptopImg"}
+              photo={projectImgs.healthGPT}
             />
             <ProjectDetails
-              title="Perfectly Planned"
-              description={projectInfo.perfectlyPlanned}
-              git={projectGit.perfectlyPlanned}
-              photo={"laptopImg"}
+              title="CarCar"
+              description={projectInfo.carCar}
+              git={projectGit.carCar}
+              photo={projectImgs.carCar}
+            />
+            <ProjectDetails
+              title="Track.ly"
+              description={projectInfo.trackLy}
+              git={projectGit.trackLy}
+              photo={projectImgs.trackLy}
             />
           </div>
           <div></div>
