@@ -25,7 +25,7 @@ const Layout = () => {
               alt="GitHub"
             />
           </a>
-          <a href="https://gitlab.com/Itav8">
+          <a href="https://gitlab.com/kulixa">
             <img
               className="footer-icon"
               src="https://img.icons8.com/?&id=epZz7YMDqqwA&format=png"
