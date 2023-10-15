@@ -19,6 +19,7 @@
 .navbar-right {
   display: flex;
   gap: 30px;
+  align-items: center;
 }
 
 nav ul {
@@ -51,10 +52,4 @@ nav a {
 
 .dropdown-content__project {
   margin-top: 5px;
-}
-
-@media only screen and (max-width: 768px) {
-  nav {
-    width: 100%;
-  }
 }
