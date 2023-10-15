@@ -53,3 +53,26 @@
   width: 378px;
   height: 240px;
 }
+
+@media only screen and (max-width: 768px) {
+  .project-details {
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+  }
+
+  .project-details__img {
+    height: 200px;
+    width: 300px;
+  }
+
+  .project-details__img--project {
+    bottom: 189px;
+    left: 37px;
+    width: 227px;
+    height: 158px;
+  }
+
+  .project-details__img--container {
+    padding: 10px
+  }
+}

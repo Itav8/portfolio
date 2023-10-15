@@ -22,3 +22,10 @@
 .about-section__content--projects {
   display: block
 }
+
+@media only screen and (max-width: 768px) {
+  .about-section__content {
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+  }
+}

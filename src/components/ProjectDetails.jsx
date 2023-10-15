@@ -14,7 +14,7 @@ const ProjectDetails = (props) => {
           Git Respository
         </a>
       </div>
-      <div>
+      <div className="project-details__img--container">
         <img className="project-details__img" alt="laptop" src={laptopImg} />
         <img
           className="project-details__img--project"

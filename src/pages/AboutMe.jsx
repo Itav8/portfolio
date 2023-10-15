@@ -125,7 +125,6 @@ const AboutMe = () => {
               photo={projectImgs.trackLy}
             />
           </div>
-          <div></div>
         </div>
       </section>
     </div>
