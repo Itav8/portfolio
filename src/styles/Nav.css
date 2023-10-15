@@ -53,9 +53,8 @@ nav a {
   margin-top: 5px;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 600px) {
   .navbar {
     display: flex;
-    justify-content: space-between;
   }
 }
