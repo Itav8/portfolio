@@ -4,11 +4,12 @@ import "../styles/ProjectDetails.css";
 
 const ProjectDetails = (props) => {
   return (
-    <div className="project-details">
-      <div className="project-details__container">
+    <>
         <NavLink className="project-details__link" to={props.to}>
           <h2 className="project-details__title">{props.title}</h2>
         </NavLink>
+    <div className="project-details">
+      <div className="project-details__container">
         <p className="project-details__info">{props.description}</p>
         <a className="project-details__button" href={props.git}>
           Git Respository
@@ -23,6 +24,7 @@ const ProjectDetails = (props) => {
         />
       </div>
     </div>
+    </>
   );
 };
 

@@ -73,7 +73,9 @@
   }
 
   .project-details__img--container {
-    padding: 10px
+    grid-row-start: 1;
+    padding: 10px;
+    max-height: 250px;
   }
 }
 
