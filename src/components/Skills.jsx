@@ -5,8 +5,8 @@ const Skills = (props) => {
     <div>
       <h4 className="skills-title">{props.title}</h4>
       <div className="skills-container">
-        {props.skills.map((skill) => {
-          return <div className="skills-container__skill">{skill}</div>;
+        {props.skills.map((skill, i) => {
+          return <div className="skills-container__skill" key={i}>{skill}</div>;
         })}
       </div>
     </div>
