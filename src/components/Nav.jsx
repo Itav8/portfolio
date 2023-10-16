@@ -18,22 +18,56 @@ const Nav = () => {
       </NavLink>
       <div className="navbar-right">
         <NavLink to="/resume">Resume</NavLink>
-        <div className="navbar-dropdown" onClick={toggleDropdown}>
-          <button className="navbar-dropbutton">Projects</button>
+        <div className="navbar-dropdown">
+          <button
+            className="navbar-dropbutton"
+            onClick={toggleDropdown}
+            onBlur={() => {
+              console.log("blurred");
+              setShowDropdown(false);
+            }}
+          >
+            Projects
+          </button>
           {showDropdown && (
             <div className="dropdown-content">
-              <NavLink className="dropdown-content__project" to="/trackly">
+              <NavLink
+                className="dropdown-content__project"
+                to="/trackly"
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => {
+                  setShowDropdown(false);
+                }}
+              >
                 Track.ly
               </NavLink>
-              <NavLink className="dropdown-content__project" to="/carcar">
+              <NavLink
+                className="dropdown-content__project"
+                to="/carcar"
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => {
+                  setShowDropdown(false);
+                }}
+              >
                 CarCar
               </NavLink>
-              <NavLink className="dropdown-content__project" to="/healthgpt">
+              <NavLink
+                className="dropdown-content__project"
+                to="/healthgpt"
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => {
+                  setShowDropdown(false);
+                }}
+              >
                 HealthGPT
               </NavLink>
               <NavLink
                 className="dropdown-content__project"
                 to="/perfectlyplanned"
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => {
+                  setShowDropdown(false);
+                }}
               >
                 Perfectly Planned
               </NavLink>
