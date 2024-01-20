@@ -33,23 +33,23 @@ const Nav = () => {
             <div className="dropdown-content">
               <NavLink
                 className="dropdown-content__project"
-                to="/trackly"
+                to="/mimood"
                 onMouseDown={(e) => e.preventDefault()}
                 onClick={() => {
                   setShowDropdown(false);
                 }}
               >
-                Track.ly
+                MiMood
               </NavLink>
               <NavLink
                 className="dropdown-content__project"
-                to="/carcar"
+                to="/perfectlyplanned"
                 onMouseDown={(e) => e.preventDefault()}
                 onClick={() => {
                   setShowDropdown(false);
                 }}
               >
-                CarCar
+                Perfectly Planned
               </NavLink>
               <NavLink
                 className="dropdown-content__project"
@@ -63,13 +63,23 @@ const Nav = () => {
               </NavLink>
               <NavLink
                 className="dropdown-content__project"
-                to="/perfectlyplanned"
+                to="/carcar"
                 onMouseDown={(e) => e.preventDefault()}
                 onClick={() => {
                   setShowDropdown(false);
                 }}
               >
-                Perfectly Planned
+                CarCar
+              </NavLink>
+              <NavLink
+                className="dropdown-content__project"
+                to="/trackly"
+                onMouseDown={(e) => e.preventDefault()}
+                onClick={() => {
+                  setShowDropdown(false);
+                }}
+              >
+                Track.ly
               </NavLink>
             </div>
           )}

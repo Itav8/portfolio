@@ -11,6 +11,7 @@ const HealthGPT = () => {
     "React",
     "Bootstrap",
     "Chart.js",
+    "PyTest"
   ];
   return (
     <div>

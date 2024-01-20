@@ -5,6 +5,7 @@ import Trackly from "../pages/projects/Trackly";
 import CarCar from "../pages/projects/CarCar";
 import HealthGPT from "../pages/projects/HealthGPT";
 import PerfectlyPlanned from "../pages/projects/PerfectlyPlanned";
+import MiMood from "../pages/projects/MiMood";
 
 // For React Router Routes
 export const routes = [
@@ -31,6 +32,10 @@ export const routes = [
       {
         path: "/perfectlyplanned",
         element: <PerfectlyPlanned />,
+      },
+      {
+        path: "/mimood",
+        element: <MiMood />,
       },
     ],
   },
