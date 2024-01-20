@@ -4,6 +4,8 @@ import perfectlyPlannedImg from "../images/perfectly_planned.png";
 import healthGpt from "../images/healthGPT.png";
 import carcar from "../images/carcar.png";
 import trackLy from "../images/trackly.png";
+import comingSoon from "../images/comingSoon.png";
+
 import "../styles/AboutMe.css";
 
 const AboutMe = () => {
@@ -57,6 +59,7 @@ const AboutMe = () => {
       "Nutrition Tracker application harnesses the power of AI to log exercises and meals, providing users with a comprehensive dietary and fitness tracking solution. The project involved collaborative development of REST APIs, with a focus on establishing schemas, databases, and models, in coordination with three cross-functional team members. Additionally, a custom authentication service was initiated and implemented, incorporating password hashing and JWT for enhanced security. The application's user interface includes a dynamic dashboard that aggregates nutrition and fitness data, presenting users with insightful data visualizations for tracking and analyzing their progress over time.",
     perfectlyPlanned:
       "Wedding management application was designed and developed with the primary objective of streamlining wedding-related event organization. It features a single-page application (SPA) for a responsive and user-friendly experience. The application incorporates a distributed messaging service with RabbitMQ for real-time email notifications when guests are invited. Furthermore, it offers REST APIs with third-party integrations, such as Google Maps and Places APIs, to facilitate efficient management of guests, events, and event venue locations. Authentication is seamlessly handled through Firebase Auth, while the React Context API manages authentication state. To optimize the development and deployment processes, the application is containerized using Docker and deployed on Render (PaaS), enhancing developer efficiency, isolation, and CI/CD workflows.",
+    miMood: 'MiMood, a mental health-focused mood tracker, using modern technologies like TypeScript, React, Node, Express, Prisma, and PostgreSQL. The application is referenced by the "circumplex model of affect" and incorporates "color therapy" techniques. I prioritized an engaging user experience by designing interactive dashboards and user-friendly journaling flows to foster high user engagement.'
   };
 
   const projectGit = {
@@ -64,6 +67,7 @@ const AboutMe = () => {
     carCar: "https://github.com/Itav8/carcar",
     healthGPT: "https://gitlab.com/caloriecounters/healthgpt",
     perfectlyPlanned: "https://github.com/Itav8/perfectly-planned",
+    mimood: "https://github.com/Itav8/mimood",
   };
 
   const projectImgs = {
@@ -106,6 +110,13 @@ const AboutMe = () => {
         <h1 className="about-header">Projects</h1>
         <div className="about-section__content about-section__content--projects">
           <div>
+            <ProjectDetails
+              to="/mimood"
+              title="MiMood"
+              description={projectInfo.miMood}
+              git={projectGit.mimood}
+              photo={comingSoon}
+            />
             <ProjectDetails
               to="/perfectlyplanned"
               title="Perfectly Planned"

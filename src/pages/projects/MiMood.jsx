@@ -7,6 +7,8 @@ const MiMood = () => {
     "PrismaORM",
     "PostgreSQL",
     "TypeScript",
+    "AWS",
+    "Jest",
     "HTML",
     "JavaScript",
     "React",

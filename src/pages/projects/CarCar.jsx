@@ -6,6 +6,7 @@ const CarCar = () => {
     "Python",
     "Django",
     "RabbitMQ",
+    "PyTest",
     "HTML",
     "CSS",
     "JavaScript",

@@ -1,7 +1,7 @@
 import Project from "../../components/Project";
 
 const Trackly = () => {
-  const techs = ["Python", "Django", "HTML", "CSS"];
+  const techs = ["Python", "Django", "PyTest", "HTML", "CSS"];
 
   return (
     <div>
