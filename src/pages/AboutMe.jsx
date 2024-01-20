@@ -117,8 +117,9 @@ const AboutMe = () => {
               git={projectGit.mimood}
               photo={comingSoon}
             />
+
             <ProjectDetails
-              to="/perfectlyplanned"
+            to="/perfectlyplanned"
               title="Perfectly Planned"
               description={projectInfo.perfectlyPlanned}
               git={projectGit.perfectlyPlanned}

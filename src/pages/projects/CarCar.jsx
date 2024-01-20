@@ -1,4 +1,3 @@
-import Skills from "../../components/Skills";
 import Project from "../../components/Project";
 
 const CarCar = () => {
