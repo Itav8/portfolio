@@ -1,4 +1,4 @@
-import "../styles/Skill.css";
+import "../styles/Skills.css";
 
 const Skills = (props) => {
   return (
