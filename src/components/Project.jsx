@@ -1,5 +1,6 @@
-import "../styles/Project.css";
 import Skills from "./Skills";
+
+import "../styles/Project.css";
 
 const Project = (props) => {
   return (
