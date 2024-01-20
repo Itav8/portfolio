@@ -1,4 +1,3 @@
-// import { useNavigate } from "react-router-dom";
 import ProjectDetails from "../components/ProjectDetails";
 import Skills from "../components/Skills";
 import perfectlyPlannedImg from "../images/perfectly_planned.png";
@@ -8,8 +7,6 @@ import trackLy from "../images/trackly.png";
 import "../styles/AboutMe.css";
 
 const AboutMe = () => {
-  // const navigate = useNavigate();
-
   const mySkills = {
     programmingLangs: ["JavaScript", "TypeScript", "Python", "SQL"],
     systemDesigns: [

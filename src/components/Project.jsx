@@ -1,22 +1,10 @@
-import Skills from "../components/Skills";
-import "../styles/Projects.css";
+import "../styles/Project.css";
+import Skills from "./Skills";
 
-const CarCar = () => {
-  const techs = [
-    "Python",
-    "Django",
-    "RabbitMQ",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Bootstrap",
-    "Chart.js",
-  ];
-
+const Project = (props) => {
   return (
     <div className="project-container">
-      <h1 className="project-title">CarCar</h1>
+      <h1 className="project-title">{props.title}</h1>
       <div className="project-content">
         <img
           alt="image placeholder"
@@ -24,8 +12,9 @@ const CarCar = () => {
         />
       </div>
       <h2 className="project-tech__header">Technologies</h2>
-      <Skills skills={techs} />
+      <Skills skills={props.skills} />
     </div>
   );
 };
-export default CarCar;
+
+export default Project;

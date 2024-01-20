@@ -3,7 +3,6 @@ import "../styles/Resume.css";
 const Resume = () => {
   return (
     <div className="resume-container">
-      {/* <div className="resume-content"> */}
       <h1 className="resume-title">Download Resume</h1>
       <a
         className="resume-button"

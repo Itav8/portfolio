@@ -1,10 +1,10 @@
 import Layout from "../components/Layout";
 import AboutMe from "../pages/AboutMe";
-import Resume from "../pages/Resume"
-import Trackly from "../pages/Trackly";
-import CarCar from "../pages/CarCar";
-import HealthGPT from "../pages/HealthGPT";
-import PerfectlyPlanned from "../pages/PerfectlyPlanned";
+import Resume from "../pages/Resume";
+import Trackly from "../pages/projects/Trackly";
+import CarCar from "../pages/projects/CarCar";
+import HealthGPT from "../pages/projects/HealthGPT";
+import PerfectlyPlanned from "../pages/projects/PerfectlyPlanned";
 
 // For React Router Routes
 export const routes = [
