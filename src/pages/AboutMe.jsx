@@ -1,5 +1,6 @@
 import ProjectDetails from "../components/ProjectDetails";
 import Skills from "../components/Skills";
+
 import perfectlyPlannedImg from "../images/perfectly_planned.png";
 import healthGpt from "../images/healthGPT.png";
 import carcar from "../images/carcar.png";
