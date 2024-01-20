@@ -11,31 +11,44 @@ const AboutMe = () => {
   // const navigate = useNavigate();
 
   const mySkills = {
-    programmingLangs: [
-      "Python",
-      "JavaScript",
-      "TypeScript",
-      "HTML",
-      "CSS",
-      "SQL",
-    ],
+    programmingLangs: ["JavaScript", "TypeScript", "Python", "SQL"],
     systemDesigns: [
       "Domain-driven design",
       "Microservices",
       "Monolith",
       "Message passing",
-      "Event sourcing",
+      "Load Balancing",
     ],
     backEndTools: [
+      "Node.js",
+      "Express.js",
+      "Prisma",
       "FastAPI",
       "Django 4",
       "PostgreSQL",
-      "NoSQL (MongoDB)",
+      "MongoDB",
       "RabbitMQ",
       "SQLAlchemy",
     ],
-    frontEndTools: ["React", "Redux", "Vite", "Django templating"],
-    tools: ["Docker", "PaaS (Vercel, Render, Railway)", "Git"],
+    frontEndTools: [
+      "HTML",
+      "CSS",
+      "React",
+      "Redux",
+      "Vite",
+      "Webpack",
+      "Django templating",
+    ],
+    tools: [
+      "AWS",
+      "Docker",
+      "Nginx",
+      "PaaS (Vercel, Render)",
+      "Git",
+      "Jest",
+      "React Testing Library",
+      "Pytest",
+    ],
   };
 
   const projectInfo = {
