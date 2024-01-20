@@ -25,7 +25,6 @@ const Nav = () => {
             className="navbar-dropbutton"
             onClick={toggleDropdown}
             onBlur={() => {
-              console.log("blurred");
               setShowDropdown(false);
             }}
           >

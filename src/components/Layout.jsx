@@ -1,4 +1,5 @@
 import Nav from "./Nav";
+import MobileNav from "./MobileNav";
 import { Outlet } from "react-router-dom";
 
 import "../styles/Layout.css";
@@ -6,6 +7,7 @@ import "../styles/Layout.css";
 const Layout = () => {
   return (
     <div>
+      <MobileNav />
       <Nav />
       <div className="main">
         <Outlet />

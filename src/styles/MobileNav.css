@@ -1,0 +1,62 @@
+.mobile-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #3F72AF;
+}
+
+.mobile-navbar-home {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-navbar-profile {
+  width: 30px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.mobile-navbar-right {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  text-align: center;
+  color: #DBE2EF;
+}
+
+.mobile-navbar-dropbutton {
+  border: 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #3F72AF;
+  color: #DBE2EF;
+}
+
+.dropdown-content {
+  position: absolute;
+  margin-top: 10px;
+  background-color: #3F72AF;
+  border-radius: 10px;
+}
+
+.dropdown-content__project {
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.dropdown-content__project:hover {
+  text-shadow: #DBE2EF 1px 0 10px;
+}
