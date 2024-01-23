@@ -12,32 +12,41 @@ export const routes = [
   {
     element: <Layout />,
     children: [
-      { path: "/", element: <AboutMe /> },
+      {
+        path: "/",
+        element: <AboutMe />,
+        name: "Home",
+      },
       {
         path: "/resume",
         element: <Resume />,
+        name: "Resume",
       },
       {
         path: "/trackly",
         element: <Trackly />,
+        name: "Track.ly",
       },
       {
         path: "/carcar",
         element: <CarCar />,
+        name: "CarCar",
       },
       {
         path: "/healthgpt",
         element: <HealthGPT />,
+        name: "HealthGPT",
       },
       {
         path: "/perfectlyplanned",
         element: <PerfectlyPlanned />,
+        name: "Perfectly Planned"
       },
       {
         path: "/mimood",
         element: <MiMood />,
+        name: "MiMood"
       },
     ],
   },
 ];
-
