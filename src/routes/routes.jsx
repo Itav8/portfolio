@@ -7,7 +7,6 @@ import HealthGPT from "../pages/projects/HealthGPT";
 import PerfectlyPlanned from "../pages/projects/PerfectlyPlanned";
 import MiMood from "../pages/projects/MiMood";
 
-// For React Router Routes
 export const routes = [
   {
     element: <Layout />,
